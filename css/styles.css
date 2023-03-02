@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", serif;
+    background-color: #020303;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    padding: 30px 0;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.logo span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 59.92px;
+    text-decoration: none;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+}
+
+.menu ul li:first-child {
+    margin-left: 282px;
+    margin-right: 58px;
+}
+.menu ul li:nth-child(2) {
+    margin-right: 59px;
+}
+
+.menu ul li:nth-child(3) {
+    margin-right: 54px;
+}
+.menu ul li a:hover {
+    color: #ffaf18;
+    text-decoration: underline;
+}
+
+.main {
+    padding: 133px 0 125px 0;
+    font-size: 0;
+}
+
+
+.main-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 563.03px;
+}
+
+.main-info-header {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+}
+
+.main-info-header span {
+    color: #ffaf18;
+}
+
+.main-info-items {
+    margin-top: 81px;
+    margin-bottom: 99px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.main-info-item {
+    display: inline-block;
+    margin-right: 99px;
+    font-size: 16px;
+}
+
+.main-info-item img {
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.main-info-item:nth-child(2) {
+    margin-right: 0;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 22px;
+}
+
+.button {
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    background-color: #ffaf18;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.button.button-main {
+    padding: 22px;
+    border-radius: 30px;
+    width: 224px;
+}
+
+.button.button-main:hover {
+    box-shadow: 0 5px 18px rgba(255, 175, 24, 60%);
+}
+
+.products {
+    padding: 120px 0 108px 0;
+}
+
+.products-header {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.products-items {
+    font-size: 0;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.products-item {
+    text-align: center;
+    padding: 10px 20px 15px 20px;
+    display: inline-block;
+    max-width: 282px;
+    background-color: white;
+    height: 354px;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+.products-item-header {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-top: 20px;
+}
+
+.products-item-description {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    margin-bottom: 15px;
+    width: 242px;
+    height: 52.68px;
+}
+
+.button.button-cart {
+    padding: 17px 0 18px 0;
+    border-radius: 25px;
+    width: 242px;
+}
+
+.button.button-cart:hover {
+    box-shadow: 0 10px 10px 1px rgba(255, 175, 24, 50%);
+}
+
+.products-item:hover {
+    box-shadow: 0 0 18px 8px rgba(255, 255, 255, 50%);
+}
+.products-item:first-child,  .products-item:last-child {
+    border: 5px solid #ed9b00;
+    padding: 5px 15px 10px 15px;
+}
+
+.chef {
+    padding: 120px 0 67px 0;
+}
+
+.chef-info {
+    max-width: 385px;
+    margin-right: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.chef-header {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+}
+
+.chef-description {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-top: 61px;
+    margin-bottom: 99px;
+}
+
+.chef-info h3{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.more-info {
+display: inline-block;
+}
+
+.more-info-button {
+    border-radius: 50%;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    margin-right: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.more-info-button.button-1 {
+    line-height: 63px;
+}
+.more-info-button.button-3 {
+    line-height: 60px;
+}
+
+.more-info-button:visited  {
+    background-color: #bebebe;
+}
+
+.more-info-button:hover {
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 50%);
+}
+
+.more-info-button:active {
+    background-color: #ffaf18;
+}
+
+.chef-photo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.rights {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+    margin-left: 390px;
+}
