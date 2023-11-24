@@ -1,0 +1,286 @@
+body {
+    transition: all .5s ease-out;
+}
+
+.main-image {
+    transition: all .5s ease-out;
+}
+
+.chef-photo {
+    transition: all 1s ease-out;
+}
+
+
+/* 1024 - 1229*/
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .products-items {
+        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+        gap: 24px;
+        justify-items: center;
+    }
+
+    .chef .container {
+        grid-column-gap: 20px;
+    }
+
+    .main-image {
+        transform: scale(1);
+    }
+
+    .main-image img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .chef .container {
+        grid-column-gap: 0;
+    }
+
+    .chef-photo {
+        transform: scale(0.99);
+    }
+
+    .chef-photo img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 938px) {
+
+    .main {
+        padding: 10px 0;
+    }
+
+    .main .container {
+        grid-template: 1fr / minmax(min-content, max-content);
+        grid-row-gap: 10px;
+        justify-content: center;
+    }
+
+    .main-info {
+        order: 1;
+    }
+
+    .main-info-header {
+        text-align: center;
+    }
+
+    .main-info-items {
+        justify-content: center;
+    }
+
+    .main-image {
+        order: 0;
+        transform: scale(0.7);
+    }
+
+
+    .main-image img {
+        width: 100%;
+    }
+
+    .main-actions {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .button.button-main {
+        width: 300px;
+        text-align: center;
+    }
+
+    .products-items {
+        grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .products {
+        padding-bottom: 40px;
+    }
+
+    .chef {
+        padding: 40px 0;
+    }
+
+    .chef .container {
+        grid-template: 1fr / 500px;
+        justify-content: center;
+    }
+
+    .chef-description {
+        margin: 40px 0 60px;
+    }
+
+    .chef-info {
+        text-align: center;
+        order: 2;
+    }
+
+    .chef-photo {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .more-info {
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header .container {
+        grid-template:1fr/ 1fr;
+        gap: 20px;
+        padding-bottom: 0;
+    }
+
+    .header .logo {
+        max-width: 127px;
+    }
+
+    .products-items {
+        grid-template: repeat(8, 1fr) / 1fr;
+    }
+
+    .products-header {
+        font-size: 30px;
+    }
+
+    .main-image {
+        transform: scale(0.8);
+    }
+
+    .main-image img {
+        width: 100%;
+    }
+
+    .main {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 615px) {
+
+    .main-info-header {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+
+    .menu ul {
+        width: 100%;
+    }
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .main-info-items {
+        grid-template: 1fr 1fr / minmax(min-content, max-content);
+    }
+
+    .chef-header {
+        font-size: 28px;
+    }
+
+    .chef-info h3 {
+        font-size: 20px;
+    }
+
+    .chef-description {
+        font-size: 14px;
+    }
+
+    .chef .container {
+        grid-template: 1fr / minmax(min-content, max-content);
+    }
+}
+
+/* 375 - 424*/
+@media screen and (max-width: 424px) {
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: rgba(21, 21, 21, 0.96);
+        z-index: 3;
+    }
+
+    .header .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .burger {
+        display: block;
+        justify-self: end;
+    }
+
+    .burger svg {
+        width: 36px;
+        height: 36px;
+        fill: #ffffff;
+        margin-right: 20px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .menu-item {
+        margin: 15px 0;
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .main-info h1 {
+        font-size: 35px;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #ffaf18;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+/* 320 -374*/
+@media screen and (max-width: 374px) {
+
+    .rights {
+        margin-left: 20px;
+    }
+}
